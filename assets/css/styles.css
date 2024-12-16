@@ -262,6 +262,10 @@ hr{
   background-size: 500px 500px;
   background-repeat: no-repeat;
   background-position: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 .person1 h1{
   font-family: 'KOCHI', sans-serif;
@@ -286,7 +290,6 @@ hr{
   cursor: pointer;
   padding: 10px 20px;
   box-shadow: 0px 0px 20px 10px rgba(248, 245, 49, 0.5);
-  margin-left: 250px;
   width: 150px;
   height: 40px;
 }
@@ -548,64 +551,39 @@ hr{
   }
 
   .featured-recipes {
-    margin-top: 100px;
-  }
-
-  .featured-recipes h1 {
-    font-size: 20px;
-    padding-top: 50px;
-  }
-
-  hr {
-    display: none;
-  }
-
-  .recipe-container {
-    margin-top: 70px;
-  }
-
-  .square {
-    justify-content: center;
-    font-size: small;
-  }
-
-  .square img {
-    width: 100px;
-    height: 100px;
+   display: none;
   }
 
   .history{
+    margin-top: 70px;
     padding: 30px 10px;
     position: relative;
     justify-content: center;
+    background-color: #ffeb9c63;
   }
   .person1{
     width: 50%;
     background-size: 200px 200px;
   }
   .person1 h1{
-    font-family: 'KOCHI', sans-serif;
     font-size: 35px;
-    text-align: center;
-    text-shadow: 2px 2px black;
-    color: #ffde59;
   }
   .person1 p{
-    font-size: 15px;
-    font-family: 'Manjari', sans-serifS;
-    font-weight: bold;
+    font-size: 10px;
   }
   .history-btn{
     font-size: 10px;
     padding: 5px 20px;
     width: 100px;
     height: 30px;
-    margin-left: 50px;
     margin-top: 10px;
   }
   .history img{
     width: 250px;
     height: 250px;
+  }
+  .newsletter {
+    padding: 30px 0;
   }
   .footer-container {
     flex-direction: column;
@@ -638,6 +616,43 @@ hr{
     width: 100px;
     padding-top: 20px;
     margin-left: 10px;
+  }
+
+  .featured-recipes {
+    display: none;
+  }
+
+  .history{
+    margin-top: 70px;
+    padding: 30px 10px;
+    position: relative;
+    justify-content: center;
+    background-color: #ffeb9c63;
+  }
+  .person1{
+    width: 50%;
+    background-size: 200px 200px;
+  }
+  .person1 h1{
+    font-size: 35px;
+   
+  }
+  .person1 p{
+    font-size: 10px;
+  }
+  .history-btn{
+    font-size: 10px;
+    padding: 5px 20px;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+  }
+  .history img{
+    width: 200px;
+    height: 200px;
+  }
+  .newsletter {
+    padding: 30px;
   }
 }
 
